@@ -9,7 +9,7 @@ COPY . /build/
 
 RUN make
 
-FROM docker.io/nginx
+FROM docker.io/nginxinc/nginx-unprivileged 
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=builder /build/csh-slack.pdf /usr/share/nginx/html/csh-slack.pdf
