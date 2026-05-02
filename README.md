@@ -1,4 +1,4 @@
-#This is now [enforcement.csh.rit.edu](https://enforcement.csh.rit.edu)
+# This is now [enforcement.csh.rit.edu](https://enforcement.csh.rit.edu)
 
 Code of Conduct
 ===============
